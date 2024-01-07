@@ -1,0 +1,12 @@
+Origin: repo.roc4et.de
+Label: repo.roc4et.de
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: the most important packages s for the roothide bootstrap
+
+SHA256:
+ 8a4da56dcaaf34cb2392661ed5343242f2a90619ec2c59b1e484f07523ecf871 560 Packages.bz2
+ 35b7e64f40a44dba77dda5e869101b7573b9b28b481e7f2f38cdff74a180bf06 560 Packages.xz
