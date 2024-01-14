@@ -21,6 +21,22 @@ Icon: file:///Library/PreferenceBundles/DoubleTapToLock.bundle/DoubleTapToLock@2
 Name: DoubleTapToLock
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.muirey03.libimagepicker
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: Muirey03
+Installed-Size: 168
+Filename: ./debs/com.muirey03.libimagepicker_1.0.4_iphoneos-arm64.deb
+Size: 12388
+MD5sum: 918e791e3fb1a555bd82bd7eefbb2f57
+SHA1: 5f7b7b2e3c7ca8f1b2fc24d3c850f4732cf02bdd
+SHA256: b06698e7c48fb927e308f5850c21fa0993a1071a820b394c1e1964dbac1786d3
+Section: Development
+Description: A simple library for choosing images in preference bundles.
+Tag: role::developer
+Author: Muirey03
+Name: libimagepicker
+
 Package: com.nahtedetihw.macpass
 Version: 1.4
 Architecture: iphoneos-arm64e
