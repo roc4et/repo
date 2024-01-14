@@ -1,6 +1,2 @@
-
-assets/img/.DS_Store
-.DS_Store
-docs/.DS_Store
-.DS_Store
-.DS_Store
+patcher/*
+*DS_Store

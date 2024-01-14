@@ -18,6 +18,25 @@ Depiction: https://chariz.com/get/velvet-2
 Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
 Name: Velvet 2
 
+Package: xyz.cypwn.adblockplus
+Version: 2.6
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Installed-Size: 250
+Filename: ./debs/xyz.roc4et.adblockplus_2.6.deb
+Size: 65020
+MD5sum: b8c8bf7204ac67d24a9803f6f2944052
+SHA1: e4b7095f413a46e671892902658686de1c59035c
+SHA256: 211ea32a0bb6d696a853023ff85bdfbc33d652086608d95bc9f37d596c1116d2
+Section: Tweaks
+Priority: optional
+Description: Blocks ads for ++ tweaks.
+Author: Rejail
+Depiction: https://repo.cypwn.xyz/depiction/540
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/adblockplus.png
+Name: AdBlock ++
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/540
+
 Package: xyz.cypwn.bhtwitter
 Version: 4.2-1
 Architecture: iphoneos-arm64e
