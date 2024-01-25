@@ -1,8 +1,8 @@
-Origin: A roc4et.de Repo
-Label: A roc4et.de Repo
+Origin: roc4et.de Repo
+Label: roc4et.de Repo
 Suite: stable
 Version: 1.0
-Codename: RootHide
+Codename: RootHide ,arm64,arm64e
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: roc4et's Repository for RootHide, Rootless and Rootfull.
