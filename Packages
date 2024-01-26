@@ -17,22 +17,3 @@ Icon: https://repo.roc4et.de/debs/de.roc4et.snapper3-rootless/snapper3.png
 Name: Snapper 3 Rootless
 Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless
 
-Package: de.roc4et.snapper3-rootless
-Version: 1.0k
-Architecture: iphoneos-arm64e
-Maintainer: Jonathan Winger-lang
-Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix
-Filename: ./debs/de.roc4et.snapper3-roothide/de.roc4et.snapper3-roothide.deb
-Size: 988292
-MD5sum: a6546f0bc46cc8745a606685bfd2ba98
-SHA1: 4a473121d71832f24c3c763d9da1d74a6afae895
-SHA256: f8b44a378fda769e4e05dcac65bdcc4f2e43f6658edfc3a3117fe8e3131da250
-Section: Tweaks
-Description: Snapper 3 Cracked by roc4et
-Author: Jonathan Winger-lang
-Depiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless/index.html
-Icon: https://repo.roc4et.de/debs/de.roc4et.snapper3-rootless/snapper3.png
-Name: Snapper 3 Rootless
-Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless
-
