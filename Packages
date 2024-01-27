@@ -18,6 +18,47 @@ Icon: https://repo.roc4et.de/debs/de.roc4et.axon-rootless/axon.png
 Name: Axon
 Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless
 
+Package: de.roc4et.axon-rootless
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: Baw Appie
+Installed-Size: 628
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/de.roc4et.axon-rootless/de.roc4et.axon-rootless_1.5_iphoneos-arm64e-2.deb
+Size: 171228
+MD5sum: 68ba25de644e26a0278b03f955b0a434
+SHA1: 72ebf1fe65519a12ed7576b4e54c18f3da2c7086
+SHA256: 4c0675643cd8d9a2841a87f342469a28ee9ee4b79521346ea14d0deb565ab88d
+Section: Tweaks
+Description: Priority Hub for iOS 16
+Author: Baw Appie
+Depiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless/index.html
+Icon: https://repo.roc4et.de/debs/de.roc4et.axon-rootless/axon.png
+Name: Axon
+Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless
+
+Package: de.roc4et.snapper3-rootless
+Version: 1.0k
+Architecture: iphoneos-arm64e
+Maintainer: Jonathan Winger-lang
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix
+Filename: ./debs/de.roc4et.snapper3-rootless/de.roc4et.snapper3-rootless_1.0k_iphoneos-arm64e-2.deb
+Size: 1970212
+MD5sum: 19cbd369fe7299dcc0befdb6280884ce
+SHA1: 42fd277b4f259bec11e1884771c83448c1ed2f41
+SHA256: 5488ba7cf049c504d1fd0aa57e07ab6952527f4b3f063d905dea671571a1e012
+Section: Tweaks
+Description: Snapper 3 Cracked by roc4et
+Author: Jonathan Winger-lang
+Depiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless/index.html
+Icon: https://repo.roc4et.de/debs/de.roc4et.snapper3-rootless/snapper3.png
+Name: Snapper 3 Rootless
+Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless
+
 Package: de.roc4et.snapper3-rootless
 Version: 1.0k
 Architecture: iphoneos-arm64
