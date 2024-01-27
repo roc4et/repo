@@ -38,13 +38,13 @@ Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless
 
 Package: de.roc4et.iOSX
 Version: 0.6.1
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: Bank5ia
 Filename: ./debs/de.roc4et.iosx/de.roc4et.iosx.deb
-Size: 8222960
-MD5sum: 3a3d55b7c2d08c227734f91dc65b0b39
-SHA1: a4c3b2c4b0c2d9483fe20ece191f6aa3d6e77363
-SHA256: 6844a938276b385ceb876abce18dc8f6f8ac00bf952f39579e456e412f3093db
+Size: 8404862
+MD5sum: 5781acd20e64615ca7ed5770ce594e1f
+SHA1: 006bd147960f5e5935fc96c9b4bf90a480686d21
+SHA256: 04218d9e760e6433be6125033844fc521285b3e19278ff206cb471eb83d1500b
 Section: Themes
 Description: iOS with a hint of MacOS
 Author: Bankia
