@@ -1,3 +1,20 @@
+Package: de.roc4et.axon-rootless
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: Baw Appie
+Installed-Size: 628
+Depends: mobilesubstrate, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/de.roc4et.axon-rootless/de.roc4et.axon-rootless.deb
+Size: 139208
+MD5sum: 0aa36c121a4bdc024eb534dc78d8de08
+SHA1: 5e1edabbbc55bd136c2617336b99eb452f393b01
+SHA256: ad5a653f53830e0a0e64e4e0096a06513422a2dbc487aa144f9a5d6e9bdf6d9b
+Section: Tweaks
+Description: Priority Hub for iOS 16
+Author: Baw Appie
+Name: Axon
+
 Package: de.roc4et.snapper3-rootless
 Version: 1.0k
 Architecture: iphoneos-arm64
