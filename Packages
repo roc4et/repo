@@ -6,17 +6,14 @@ Installed-Size: 628
 Depends: mobilesubstrate, firmware (>= 16.0)
 Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
 Filename: ./debs/de.roc4et.axon-rootless/de.roc4et.axon-rootless.deb
-Size: 138808
-MD5sum: fa15084d235652290ff5dae2531dc757
-SHA1: 22c06579cb7cd72e9dd53a8f74b09aac21a3c7f7
-SHA256: 08194f0c82eac2ab0633c67c59dc90ddab0c257099ebc8b766f08199d66de147
+Size: 139208
+MD5sum: 0aa36c121a4bdc024eb534dc78d8de08
+SHA1: 5e1edabbbc55bd136c2617336b99eb452f393b01
+SHA256: ad5a653f53830e0a0e64e4e0096a06513422a2dbc487aa144f9a5d6e9bdf6d9b
 Section: Tweaks
 Description: Priority Hub for iOS 16
 Author: Baw Appie
-Depiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless/index.html
-Icon: https://repo.roc4et.de/debs/de.roc4et.axon-rootless/axon.png
 Name: Axon
-Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless
 
 Package: de.roc4et.axon-rootless
 Version: 1.5
@@ -38,6 +35,43 @@ Depiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless/index.html
 Icon: https://repo.roc4et.de/debs/de.roc4et.axon-rootless/axon.png
 Name: Axon
 Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless
+
+Package: de.roc4et.axon-rootless
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: Baw Appie
+Installed-Size: 628
+Depends: mobilesubstrate, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/de.roc4et.axon-rootless/finish.deb
+Size: 138808
+MD5sum: fa15084d235652290ff5dae2531dc757
+SHA1: 22c06579cb7cd72e9dd53a8f74b09aac21a3c7f7
+SHA256: 08194f0c82eac2ab0633c67c59dc90ddab0c257099ebc8b766f08199d66de147
+Section: Tweaks
+Description: Priority Hub for iOS 16
+Author: Baw Appie
+Depiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless/index.html
+Icon: https://repo.roc4et.de/debs/de.roc4et.axon-rootless/axon.png
+Name: Axon
+Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless
+
+Package: de.roc4et.junipero
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: roc4et
+Filename: ./debs/de.roc4et.junipero/de.roc4et.junipero_1.1_iphoneos-arm64.deb
+Size: 16826864
+MD5sum: 11756946348bbe600d78ee8fb5fe452b
+SHA1: c892fcb00780d0e2b0ec795c90ba9c5e092aef30
+SHA256: 88dc992fb98580e1815df8739bbfae6388b7a4083f9fec4c1e708d74e8a21759
+Section: Themes
+Description: A stunning new look for iOS
+Author: xerus <xerusxan@gmail.com>
+Depiction: https://havoc.app/depiction/junipero
+Icon: https://media.havoc.app/63b84bd79d84843fe96beeb7
+Name: Junipero
+Sileodepiction: https://havoc.app/package/junipero/depiction.json
 
 Package: de.roc4et.snapper3-rootless
 Version: 1.0k
@@ -77,4 +111,21 @@ Depiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless/index.ht
 Icon: https://repo.roc4et.de/debs/de.roc4et.snapper3-rootless/snapper3.png
 Name: Snapper 3 Rootless
 Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless
+
+Package: me.nepeta.axon
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: Baw Appie
+Installed-Size: 628
+Depends: mobilesubstrate, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/de.roc4et.axon-rootless/me.nepeta.axon_1.5_iphoneos-arm64.deb
+Size: 138812
+MD5sum: a50e5dd46b810e4796ef336d596a3e83
+SHA1: 62befe7a8e51ddfd611f875441d8c53b3316bafa
+SHA256: 6fa02804f41a194bcb617cccc35cc4c0f8ee1c3a71565546774b4779a4f276c4
+Section: Tweaks
+Description: Priority Hub for iOS 16
+Author: Nepeta & Baw Appie
+Name: Axon
 
