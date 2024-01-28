@@ -5,10 +5,10 @@ Maintainer: roc4et
 Installed-Size: 1108
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common
 Filename: ./debs/de.roc4et.alpine.deb
-Size: 600268
-MD5sum: a913fd2cd624fd9a2a4e516dcbae0475
-SHA1: bee8dd3509af0008125ffa3598e8c7af85acc8dc
-SHA256: 4410a827169f1cf3820e1a8bf9f5e5d8379caf259113b2afa7edae56e4d5086a
+Size: 599888
+MD5sum: 73842bba7b975a24ddeb918797340cc9
+SHA1: 6a5bef1151b3d85ee798a0dcf7b55ae7dcb505a4
+SHA256: 71d60e75742f2b8898202c6a5e96d757bd365b7f6afc592a112cc83a3526c002
 Section: Tweaks
 Description: tvOS alerts for iOS
 Author: mtac
@@ -22,10 +22,10 @@ Maintainer: roc4et
 Installed-Size: 1108
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common
 Filename: ./debs/Roothide Patch/de.roc4et.alpine.deb
-Size: 647638
-MD5sum: 429d3a991eda343787f8d0bb0d8af0da
-SHA1: 2e4da063a694846fe073f5d120ea71fbe7b95a8a
-SHA256: ac28ce524d7794b004db3584b8c09fd93e75657dd1287f951c086fedd2e35220
+Size: 647630
+MD5sum: 6490c4545f4f607660fbb48cab90cfc5
+SHA1: 03333e769fdb8cbc31f1a413421ed2bec80f0aa6
+SHA256: b696339d10f70dc405143d64f9303cd76e8cee96e4cb002d055b845ce4150710
 Section: Tweaks
 Description: tvOS alerts for iOS
 Author: mtac
@@ -34,52 +34,86 @@ Name: Alpine
 
 Package: de.roc4et.axon-rootless
 Version: 1.5
-Architecture: iphoneos-arm64e
-Maintainer: Baw Appie
-Installed-Size: 628
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate, firmware (>= 16.0)
-Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
-Filename: ./debs/Roothide Patch/de.roc4et.axon-rootless_1.5_iphoneos-arm64e-2.deb
-Size: 171228
-MD5sum: 68ba25de644e26a0278b03f955b0a434
-SHA1: 72ebf1fe65519a12ed7576b4e54c18f3da2c7086
-SHA256: 4c0675643cd8d9a2841a87f342469a28ee9ee4b79521346ea14d0deb565ab88d
-Section: Tweaks
-Description: Priority Hub for iOS 16
-Author: Baw Appie
-Depiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless/index.html
-Icon: https://repo.roc4et.de/debs/de.roc4et.axon-rootless/axon.png
-Name: Axon
-Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless
-
-Package: de.roc4et.axon-rootless
-Version: 1.5
 Architecture: iphoneos-arm64
 Maintainer: Baw Appie
 Installed-Size: 628
 Depends: mobilesubstrate, firmware (>= 16.0)
 Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
-Filename: ./debs/de.roc4et.axon-rootless/de.roc4et.axon-rootless.deb
-Size: 139208
-MD5sum: 0aa36c121a4bdc024eb534dc78d8de08
-SHA1: 5e1edabbbc55bd136c2617336b99eb452f393b01
-SHA256: ad5a653f53830e0a0e64e4e0096a06513422a2dbc487aa144f9a5d6e9bdf6d9b
+Filename: ./debs/de.roc4et.axon.deb
+Size: 138764
+MD5sum: 9b762246ac1d783be8800cea7dc1012d
+SHA1: ecf9fcf89150d04657bdac42b19a09102fa2a449
+SHA256: 633550aede34275c0baa1d2b123ec5adfe391e7c4e11a9607f6d18f7839accc1
 Section: Tweaks
 Description: Priority Hub for iOS 16
 Author: Baw Appie
+Icon: https://repo.roc4et.de/debs/axon.png
 Name: Axon
+
+Package: de.roc4et.axon-rootless
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: Baw Appie
+Installed-Size: 628
+Depends: mobilesubstrate, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/Roothide Patch/de.roc4et.axon.deb
+Size: 167630
+MD5sum: 371a8a8796a2bc4dbef52c60850ebdd9
+SHA1: b6578487593da94a22d88d0cdcd024ba9ed82859
+SHA256: 68a14faaa2baa3b281d186ce2c48426d58161f8844eb9aaaa7b6aed93625a438
+Section: Tweaks
+Description: Priority Hub for iOS 16
+Author: Baw Appie
+Icon: https://repo.roc4et.de/debs/axon.png
+Name: Axon
+
+Package: de.roc4et.batterybuddy
+Version: 1.3.2
+Architecture: iphoneos-arm
+Maintainer: roc4et
+Installed-Size: 432
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.batterybuddy
+Filename: ./debs/de.roc4et.batterybuddy_1.3.2_iphoneos.deb
+Size: 38932
+MD5sum: f7e8341768313925933c79e04fcdaad6
+SHA1: 4a0740b26718aa66d7574a1abc5ccdd05b94df55
+SHA256: fcc2b919e0f52add81780399d58524d937b8c776993a0b395ba60f296291cbcf
+Section: Tweaks
+Description: Battery indicator, but cute
+Author: Traurige & neilsardesai
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/batterybuddy.png
+Name: BatteryBuddy
+
+Package: de.roc4et.batterybuddy
+Version: 1.3.2
+Architecture: iphoneos-arm64e
+Maintainer: roc4et
+Installed-Size: 432
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.batterybuddy
+Filename: ./debs/Roothide Patch/de.roc4et.batterybuddy_1.3.2_iphoneos.deb
+Size: 46312
+MD5sum: 944b59861a9ba94ec052b6e054c3aea3
+SHA1: 9447432161f473caf4e1c3c53ec3a3c915384417
+SHA256: 0429ae2cb67b689be85b8c020582e78c173a9981a69fed34655cedb28b19ea92
+Section: Tweaks
+Description: Battery indicator, but cute
+Author: Traurige & neilsardesai
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/batterybuddy.png
+Name: BatteryBuddy
 
 Package: de.roc4et.designer
 Version: 1.1.8
 Architecture: iphoneos-arm
 Maintainer: roc4et
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/de.roc4et.lynxtwo_2.4.1_iphoneos-arm.deb
-Size: 647868
-MD5sum: 6265abccb7506d91e8fea88ecbb72ffa
-SHA1: 7690e7b211a8a3a9845e3f18ab1de50a13bd53e8
-SHA256: 83ba86ffd55d85bc42fd1ce378b9be3472d50b7f9535b2118297e2a647e8ace9
+Filename: ./debs/de.roc4et.designer_1.1.8_iphoneos.deb
+Size: 647632
+MD5sum: 160abe2b6ea6365ba57f28c2f0032115
+SHA1: af3e9e05b8d1da5e7bc75e2e59024daf0ebb2562
+SHA256: 64998e152086b822555a3cbfd73365b470f239fe9f246e39bdf9e25aedc3cb4c
 Section: Tweaks
 Description: Design layouts for lockscreen and homescreen
 Author: JunesiPhone
@@ -91,43 +125,143 @@ Version: 1.1.8
 Architecture: iphoneos-arm64e
 Maintainer: roc4et
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/Roothide Patch/de.roc4et.lynxtwo_2.4.1_iphoneos-arm.deb
-Size: 811478
-MD5sum: 2784f8b358287d16ed827d14b1f9f396
-SHA1: b5216cab6c82f790cfa7a6082789edb1c5f823c1
-SHA256: 9ab262a36b49134ac01e4b63b9de40125517e537b2efa905371e7c9e4c9c2d7a
+Filename: ./debs/Roothide Patch/de.roc4et.designer_1.1.8_iphoneos.deb
+Size: 811476
+MD5sum: e44b76a768d9b01625cea7684721906c
+SHA1: 74e9314e22ec6afb71dde8e29a40e9aa6c5f6ea6
+SHA256: 5b2d424615e44c67b9ec8ee30c3f73e89e31804d1f44e2c65954b0b5474873d1
 Section: Tweaks
 Description: Design layouts for lockscreen and homescreen
 Author: JunesiPhone
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/designer.png
 Name: Designer
+
+Package: de.roc4et.dleasy
+Version: 2.12.4k
+Architecture: iphoneos-arm
+Maintainer: roc4et
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap | com.hackyouriphone.rocketbootstrap, curl
+Conflicts: me.ahmedbafkir.dleasy, me.pulandresk.dleasy, me.pulandres.dleasy, ru.rejail.dleasy
+Filename: ./debs/de.roc4et.dleasy_2.12.4k_iphoneos.deb
+Size: 1578572
+MD5sum: c0a35230e6e786360b67bc82da77ba5e
+SHA1: 34e62452e0b70d4e80551bb98d1eced7f157d9f7
+SHA256: ce655416af21e7b2f1dd7e8ab55f2c51da064a1101d54db7f52e4b8329d05d79
+Section: Tweaks
+Description: Download images and videos from social apps easily!
+Author: AhmedBafkir
+Icon: https://repo.packix.com/api/Packages/5d093ef0ae6eb7001bab54e3/icon/download?size=medium&hash=5d229aeff01adb0014b28851
+Name: DLEasy
+
+Package: de.roc4et.dleasy
+Version: 2.12.4k
+Architecture: iphoneos-arm64e
+Maintainer: roc4et
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap | com.hackyouriphone.rocketbootstrap, curl
+Conflicts: me.ahmedbafkir.dleasy, me.pulandresk.dleasy, me.pulandres.dleasy, ru.rejail.dleasy
+Filename: ./debs/Roothide Patch/de.roc4et.dleasy_2.12.4k_iphoneos.deb
+Size: 2364776
+MD5sum: 99b67e8f5d4e7e16494df4635ac49530
+SHA1: e97b630781f732cf80692b58ae76cb9c5dd6443e
+SHA256: 80fa7f62809303d2f418e6905fea8ef58e643242ab7d46b5ea3735733cb85cb8
+Section: Tweaks
+Description: Download images and videos from social apps easily!
+Author: AhmedBafkir
+Icon: https://repo.packix.com/api/Packages/5d093ef0ae6eb7001bab54e3/icon/download?size=medium&hash=5d229aeff01adb0014b28851
+Name: DLEasy
+
+Package: de.roc4et.emerald
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: roc4et
+Depends: firmware (>= 15.0), ws.hbang.alderis, com.spark.libsparkapplist, de.roc4et.xinam1ne
+Filename: ./debs/de.roc4et.emerald_1.0.7_iphoneos.deb
+Size: 212108
+MD5sum: c53e0b660692f30b4c010c2731ab9262
+SHA1: ad6144fe5d81887c6e34c946b029ed09719bbb8d
+SHA256: b8f4a183118a6f0e366ea48b955a3ed5bc60cd311c7086bbb92a65795eb4bf0b
+Section: Tweaks
+Description: Status Bar Pills and Platters
+Author: LaughingQuoll
+Icon: https://media.havoc.app/620c653de96ba40e8240c654
+Name: Emerald
+
+Package: de.roc4et.emerald
+Version: 1.0.7
+Architecture: iphoneos-arm64e
+Maintainer: roc4et
+Depends: firmware (>= 15.0), ws.hbang.alderis, com.spark.libsparkapplist, de.roc4et.xinam1ne
+Filename: ./debs/Roothide Patch/de.roc4et.emerald_1.0.7_iphoneos.deb
+Size: 286334
+MD5sum: 3a71abefd9f12e17e9198337da9d73f8
+SHA1: c87ae3ecf461548a255afb34c4c24b7489400937
+SHA256: f69d00f6c32723d66346ca6b23d5ce32bd3c8bc592cc7c6eb1bd5403e6119110
+Section: Tweaks
+Description: Status Bar Pills and Platters
+Author: LaughingQuoll
+Icon: https://media.havoc.app/620c653de96ba40e8240c654
+Name: Emerald
+
+Package: de.roc4et.eneko
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: roc4et
+Installed-Size: 400
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Filename: ./debs/de.roc4et.eneko_1.4_iphoneos.deb
+Size: 31448
+MD5sum: cee770a5a8b111a8b6ab151054aa9d30
+SHA1: 8637d38ecd1e5f83aaa26906ef20fbdb513363e4
+SHA256: 7e3ebf8859802f085a03ca876853712054ea9d0b567a69513ddafca4a5ed1cd2
+Section: Tweaks
+Description: Live wallpapers for iOS
+Author: Traurige <hello@traurige.dev>
+Name: Eneko
+
+Package: de.roc4et.eneko
+Version: 1.4
+Architecture: iphoneos-arm64e
+Maintainer: roc4et
+Installed-Size: 400
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Filename: ./debs/Roothide Patch/de.roc4et.eneko_1.4_iphoneos.deb
+Size: 38328
+MD5sum: 53553aef11f77585aef05fe153cf65b7
+SHA1: 848fde52e9b3ded6cc7f5f06997479f246eeda34
+SHA256: e4db17a556dffe8bde7dc2ed2ca2a33d33d3d0957ca87a80ededb6736ac73861
+Section: Tweaks
+Description: Live wallpapers for iOS
+Author: Traurige <hello@traurige.dev>
+Name: Eneko
+
+Package: de.roc4et.iOSX
+Version: 0.6.1
+Architecture: iphoneos-arm64
+Maintainer: Bank5ia
+Filename: ./debs/de.roc4et.iosx.deb
+Size: 8222984
+MD5sum: 3458d03c316f96b2f16bbd0000517d95
+SHA1: cb2e4887d6482ec9f0b0844cdc2a0a84b54b8f30
+SHA256: 822c55a20ff480ba68f30b32c60b5c32e925f585437b2b83f419ba1675b001bb
+Section: Themes
+Description: iOS with a hint of MacOS
+Author: Bankia
+Depiction: https://havoc.app/depiction/iosx
+Icon: https://media.havoc.app/629372b8284c9345b94ce507
+Name: iOSX
+Sileodepiction: https://havoc.app/package/iosx/depiction.json
 
 Package: de.roc4et.iOSX
 Version: 0.6.1
 Architecture: iphoneos-arm64e
 Maintainer: Bank5ia
 Filename: ./debs/Roothide Patch/de.roc4et.iosx.deb
-Size: 8405472
-MD5sum: 12300b0ccc2f8742ba5e8789f158f5d1
-SHA1: 8f899e7c908a03da2733de1449d2a33489235da1
-SHA256: c0b9a565629a36daea53128557a06455ebb5908e79aa977c9027a6333e0c80e7
-Section: Themes
-Description: iOS with a hint of MacOS
-Author: Bankia
-Depiction: https://havoc.app/depiction/iosx
-Icon: https://media.havoc.app/629372b8284c9345b94ce507
-Name: iOSX
-Sileodepiction: https://havoc.app/package/iosx/depiction.json
-
-Package: de.roc4et.iOSX
-Version: 0.6.1
-Architecture: iphoneos-arm64
-Maintainer: Bank5ia
-Filename: ./debs/de.roc4et.iosx/de.roc4et.iosx.deb
-Size: 8404862
-MD5sum: 5781acd20e64615ca7ed5770ce594e1f
-SHA1: 006bd147960f5e5935fc96c9b4bf90a480686d21
-SHA256: 04218d9e760e6433be6125033844fc521285b3e19278ff206cb471eb83d1500b
+Size: 8405692
+MD5sum: 21f959ab2261fbc4637e272991d28e7a
+SHA1: cfc2852476bea64687a550cd1aac4c595ea898f0
+SHA256: ac9eae37746f1a3d05f91c25b95fbed085b698303263fb5d9a80a749d3ce998b
 Section: Themes
 Description: iOS with a hint of MacOS
 Author: Bankia
@@ -138,13 +272,13 @@ Sileodepiction: https://havoc.app/package/iosx/depiction.json
 
 Package: de.roc4et.junipero
 Version: 1.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: roc4et
-Filename: ./debs/Roothide Patch/de.roc4et.junipero_1.1_iphoneos-arm64.deb
-Size: 16833336
-MD5sum: 6b32093b080e5640b08c15f8b41512fb
-SHA1: c7884d5f3e9fc1ee5c5efd16de13b884eef8e1aa
-SHA256: 8a4bb4f8f64d9b97a54648b268680acdcfe4dc60193339722b4c10ffc70438d5
+Filename: ./debs/de.roc4et.junipero_1.1_iphoneos.deb
+Size: 16826868
+MD5sum: d9d933e70a38fcb620b19802921ba9d3
+SHA1: 7ee0aa25ef5f35c44d3442f7b66574231e1c3617
+SHA256: 6d422705672c5aaf7bdc24ba6c53294e003608a98002debb841058252a4ff5b9
 Section: Themes
 Description: A stunning new look for iOS
 Author: xerus <xerusxan@gmail.com>
@@ -155,13 +289,13 @@ Sileodepiction: https://havoc.app/package/junipero/depiction.json
 
 Package: de.roc4et.junipero
 Version: 1.1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: roc4et
-Filename: ./debs/de.roc4et.junipero/de.roc4et.junipero_1.1_iphoneos-arm64.deb
-Size: 16826864
-MD5sum: 11756946348bbe600d78ee8fb5fe452b
-SHA1: c892fcb00780d0e2b0ec795c90ba9c5e092aef30
-SHA256: 88dc992fb98580e1815df8739bbfae6388b7a4083f9fec4c1e708d74e8a21759
+Filename: ./debs/Roothide Patch/de.roc4et.junipero_1.1_iphoneos.deb
+Size: 16833344
+MD5sum: bdbe65704563d9bf7986177ceae724fe
+SHA1: 169f7adf884ae1fb95cd3b301385fc00c6bbf351
+SHA256: c6525dd1b3cf578dce107190cc6ea068f87b5d025958080c63d1cf6fbfe2305b
 Section: Themes
 Description: A stunning new look for iOS
 Author: xerus <xerusxan@gmail.com>
@@ -176,16 +310,16 @@ Architecture: iphoneos-arm64
 Maintainer: Jonathan Winger-lang
 Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix
-Filename: ./debs/de.roc4et.snapper3-rootless/de.roc4et.snapper3-rootless.deb
-Size: 911380
-MD5sum: 74236d4920c1e0c02aa954385fcb1179
-SHA1: df415eb32bfeeb1a17d34bba3913cef015e4cb62
-SHA256: 0f2ed5fb8ddeffd2a91c7cbe4838bfa14284d8985efef9ce434eca9f3f3c875a
+Filename: ./debs/de.roc4et.snapper3.deb
+Size: 910736
+MD5sum: c0e02cd554a37701167879a316be1c31
+SHA1: dc54f3aaa47c1b7617547dcff36da692de7d216e
+SHA256: 578592af2d52b66ef80bf9a6e5900209cb78e0d9363c97e8f2ff548617302482
 Section: Tweaks
 Description: Snapper 3 Cracked by roc4et
 Author: Jonathan Winger-lang
 Depiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless/index.html
-Icon: https://repo.roc4et.de/debs/de.roc4et.snapper3-rootless/snapper3.png
+Icon: https://repo.roc4et.de/debs/snapper3.png
 Name: Snapper 3 Rootless
 Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless
 
@@ -193,207 +327,18 @@ Package: de.roc4et.snapper3-rootless
 Version: 1.0k
 Architecture: iphoneos-arm64e
 Maintainer: Jonathan Winger-lang
-Pre-Depends: rootless-compat(>= 0.1)
 Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix
-Filename: ./debs/Roothide Patch/de.roc4et.snapper3-rootless_1.0k_iphoneos-arm64e-2.deb
-Size: 1970212
-MD5sum: 19cbd369fe7299dcc0befdb6280884ce
-SHA1: 42fd277b4f259bec11e1884771c83448c1ed2f41
-SHA256: 5488ba7cf049c504d1fd0aa57e07ab6952527f4b3f063d905dea671571a1e012
+Filename: ./debs/Roothide Patch/de.roc4et.snapper3.deb
+Size: 988286
+MD5sum: 637eab0eb962697791725903f2311eb8
+SHA1: ac475bb1a5c1a46874bbcf8f474f9fabf9e0ae8f
+SHA256: 61a0ae688442d1d2dfe762986f443d3dcc62e23ddbb277d5b0bce412c19310a5
 Section: Tweaks
 Description: Snapper 3 Cracked by roc4et
 Author: Jonathan Winger-lang
 Depiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless/index.html
-Icon: https://repo.roc4et.de/debs/de.roc4et.snapper3-rootless/snapper3.png
+Icon: https://repo.roc4et.de/debs/snapper3.png
 Name: Snapper 3 Rootless
 Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless
-
-Package: xyz.cypwn.batterybuddy
-Version: 1.3.2
-Architecture: iphoneos-arm
-Maintainer: CyPwn
-Installed-Size: 432
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Conflicts: love.litten.batterybuddy
-Filename: ./debs/de.roc4et.batterybuddy_1.3.2_iphoneos-arm.deb
-Size: 60082
-MD5sum: 3e710dd8beb539aa79fd2de2f6ab41c9
-SHA1: e1ec63d41a70c99f4a1087a4d7933ef423ef56c3
-SHA256: 36ad735b75404d0dd5fea1899b79d33bc39f7af15cb8f5432cc926f1fdd8669b
-Section: Tweaks
-Description: Battery indicator, but cute
-Author: Traurige & neilsardesai
-Depiction: https://repo.cypwn.xyz/depiction/1132
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/batterybuddy.png
-Name: BatteryBuddy
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1132
-
-Package: xyz.cypwn.batterybuddy
-Version: 1.3.2
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Installed-Size: 432
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Conflicts: love.litten.batterybuddy
-Filename: ./debs/Roothide Patch/de.roc4et.batterybuddy_1.3.2_iphoneos-arm.deb
-Size: 46352
-MD5sum: 6c774bcc4b3bbf6b5f9d302d21a88c44
-SHA1: c0839cf9f23fb54c261101b90e780f5730466b86
-SHA256: e0ebb7e1764ecc2fb9a34558da4680479ad869a8d075757cefda8877b278a2c5
-Section: Tweaks
-Description: Battery indicator, but cute
-Author: Traurige & neilsardesai
-Depiction: https://repo.cypwn.xyz/depiction/1132
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/batterybuddy.png
-Name: BatteryBuddy
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1132
-
-Package: xyz.cypwn.designer
-Version: 1.1.8
-Architecture: iphoneos-arm
-Maintainer: CyPwn
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/de.roc4et.designer_1.1.8_iphoneos-arm.deb
-Size: 960344
-MD5sum: b086fbd59b06ca93a6b1e61c541fdf19
-SHA1: 7e21b343aefdb5611f4a446b2ded47f0017255e5
-SHA256: 09d50c7106011b4c2e6e33294aebdf15f7b1d100f7f55370d459a11118e8064d
-Section: Addons (Tweaks)
-Description: Design layouts for lockscreen and homescreen
-Author: JunesiPhone
-Depiction: https://repo.cypwn.xyz/depiction/1473
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/designer.png
-Name: Designer
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1473
-
-Package: xyz.cypwn.designer
-Version: 1.1.8
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/Roothide Patch/de.roc4et.designer_1.1.8_iphoneos-arm.deb
-Size: 811534
-MD5sum: 1758168b6146f158c40bad78a59b7eca
-SHA1: bff6c7f71be40239d2ae5195a3ae147e3aa4a499
-SHA256: 4918385d7c759cf2dbb4e3c2273abd6972dda983ae17db8871bfc129a74723b7
-Section: Addons (Tweaks)
-Description: Design layouts for lockscreen and homescreen
-Author: JunesiPhone
-Depiction: https://repo.cypwn.xyz/depiction/1473
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/designer.png
-Name: Designer
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1473
-
-Package: xyz.cypwn.dleasy
-Version: 2.12.4k
-Architecture: iphoneos-arm
-Maintainer: CyPwn
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap | com.hackyouriphone.rocketbootstrap, curl
-Conflicts: me.ahmedbafkir.dleasy, me.pulandresk.dleasy, me.pulandres.dleasy, ru.rejail.dleasy
-Filename: ./debs/de.roc4et.dleasy_2.12.4k_iphoneos-arm.deb
-Size: 3003458
-MD5sum: b1ebe1ed2162da92181e75f7bd932f8a
-SHA1: d91dbd17ae1068dd75e7950ed8e9c089d9e3a39d
-SHA256: 26617460e7a73eaba979fdc1dd6280f7d539a2c5a9fe75a9130e106b88aee8e3
-Section: Tweaks
-Description: Download images and videos from social apps easily!
-Author: AhmedBafkir
-Depiction: https://repo.cypwn.xyz/depiction/81
-Icon: https://repo.packix.com/api/Packages/5d093ef0ae6eb7001bab54e3/icon/download?size=medium&hash=5d229aeff01adb0014b28851
-Name: DLEasy
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/81
-
-Package: xyz.cypwn.dleasy
-Version: 2.12.4k
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap | com.hackyouriphone.rocketbootstrap, curl
-Conflicts: me.ahmedbafkir.dleasy, me.pulandresk.dleasy, me.pulandres.dleasy, ru.rejail.dleasy
-Filename: ./debs/Roothide Patch/de.roc4et.dleasy_2.12.4k_iphoneos-arm.deb
-Size: 2364808
-MD5sum: b61c41b1e7aa48aa19fc0f5464fa14ac
-SHA1: d95a72169c05c0bf833a84d43f21ceac225b500c
-SHA256: 929dfebb33a15dc8ddf3c4b8e787ae229b5c89eb8ed3d126ff0de53870681945
-Section: Tweaks
-Description: Download images and videos from social apps easily!
-Author: AhmedBafkir
-Depiction: https://repo.cypwn.xyz/depiction/81
-Icon: https://repo.packix.com/api/Packages/5d093ef0ae6eb7001bab54e3/icon/download?size=medium&hash=5d229aeff01adb0014b28851
-Name: DLEasy
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/81
-
-Package: xyz.cypwn.emerald
-Version: 1.0.7
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: firmware (>= 15.0), ws.hbang.alderis, com.spark.libsparkapplist, xyz.cypwn.xinam1ne
-Filename: ./debs/de.roc4et.emerald_1.0.7_iphoneos-arm64.deb
-Size: 450222
-MD5sum: d52936fff79c4a31b4d0cb6864583c3f
-SHA1: 32c111e967fb3c3debb1e5f99c12e6b2fdf91481
-SHA256: f34f9a67380cb45cad94cc40320a6d61a68286a0d15526ea40c2544895e7c468
-Section: Tweaks
-Description: Status Bar Pills and Platters
-Author: LaughingQuoll
-Depiction: https://repo.cypwn.xyz/depiction/1517
-Icon: https://media.havoc.app/620c653de96ba40e8240c654
-Name: Emerald
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1517
-
-Package: xyz.cypwn.emerald
-Version: 1.0.7
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Depends: firmware (>= 15.0), ws.hbang.alderis, com.spark.libsparkapplist, xyz.cypwn.xinam1ne
-Filename: ./debs/Roothide Patch/de.roc4et.emerald_1.0.7_iphoneos-arm64.deb
-Size: 286172
-MD5sum: 5ee5d5f6de3d7dc9e0a591a0bbdcf1cc
-SHA1: daff6db86fba60dffda786758a26c590c39a71e0
-SHA256: 1911e1755cd2d413b81973ff239ad0b28668818648778c7e5154ab06e7e49cfc
-Section: Tweaks
-Description: Status Bar Pills and Platters
-Author: LaughingQuoll
-Depiction: https://repo.cypwn.xyz/depiction/1517
-Icon: https://media.havoc.app/620c653de96ba40e8240c654
-Name: Emerald
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1517
-
-Package: xyz.cypwn.eneko
-Version: 1.4
-Architecture: iphoneos-arm
-Maintainer: CyPwn
-Installed-Size: 400
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Conflicts: love.litten.eneko
-Filename: ./debs/de.roc4et.eneko_1.4_iphoneos-arm.deb
-Size: 51148
-MD5sum: 150470f2d969363958f7b297225462fb
-SHA1: 80551cda5c050a47bd39c5452100c98ee4ccf6f9
-SHA256: 9bd3fea7b442ca3e62d07b60734e0c30f08b1807c82a796aa1006cbdb207aaa9
-Section: Tweaks
-Description: Live wallpapers for iOS
-Author: Traurige <hello@traurige.dev>
-Depiction: https://repo.cypwn.xyz/depiction/1754
-Name: Eneko
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1754
-
-Package: xyz.cypwn.eneko
-Version: 1.4
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Installed-Size: 400
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Conflicts: love.litten.eneko
-Filename: ./debs/Roothide Patch/de.roc4et.eneko_1.4_iphoneos-arm.deb
-Size: 38380
-MD5sum: 51c030ce80bea04e60d1578516566f48
-SHA1: b6f3b5519eeeebd65909c037f5e57832ed78ed21
-SHA256: 835600b778e5947266248c91413d47ff092aa49f01c21928c823ca9bc249d069
-Section: Tweaks
-Description: Live wallpapers for iOS
-Author: Traurige <hello@traurige.dev>
-Depiction: https://repo.cypwn.xyz/depiction/1754
-Name: Eneko
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1754
 
