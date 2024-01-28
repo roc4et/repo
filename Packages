@@ -15,23 +15,6 @@ Author: mtac
 Icon: https://media.havoc.app/64ae21880d54f9113bc13a59
 Name: Alpine
 
-Package: de.roc4et.alpine
-Version: 1.3
-Architecture: iphoneos-arm64e
-Maintainer: roc4et
-Installed-Size: 1108
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common
-Filename: ./debs/Roothide Patch/de.roc4et.alpine.deb
-Size: 647630
-MD5sum: 6490c4545f4f607660fbb48cab90cfc5
-SHA1: 03333e769fdb8cbc31f1a413421ed2bec80f0aa6
-SHA256: b696339d10f70dc405143d64f9303cd76e8cee96e4cb002d055b845ce4150710
-Section: Tweaks
-Description: tvOS alerts for iOS
-Author: mtac
-Icon: https://media.havoc.app/64ae21880d54f9113bc13a59
-Name: Alpine
-
 Package: de.roc4et.axon-rootless
 Version: 1.5
 Architecture: iphoneos-arm64
@@ -44,24 +27,6 @@ Size: 138764
 MD5sum: 9b762246ac1d783be8800cea7dc1012d
 SHA1: ecf9fcf89150d04657bdac42b19a09102fa2a449
 SHA256: 633550aede34275c0baa1d2b123ec5adfe391e7c4e11a9607f6d18f7839accc1
-Section: Tweaks
-Description: Priority Hub for iOS 16
-Author: Baw Appie
-Icon: https://repo.roc4et.de/debs/axon.png
-Name: Axon
-
-Package: de.roc4et.axon-rootless
-Version: 1.5
-Architecture: iphoneos-arm64e
-Maintainer: Baw Appie
-Installed-Size: 628
-Depends: mobilesubstrate, firmware (>= 16.0)
-Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
-Filename: ./debs/Roothide Patch/de.roc4et.axon.deb
-Size: 167630
-MD5sum: 371a8a8796a2bc4dbef52c60850ebdd9
-SHA1: b6578487593da94a22d88d0cdcd024ba9ed82859
-SHA256: 68a14faaa2baa3b281d186ce2c48426d58161f8844eb9aaaa7b6aed93625a438
 Section: Tweaks
 Description: Priority Hub for iOS 16
 Author: Baw Appie
@@ -86,24 +51,6 @@ Author: Traurige & neilsardesai
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/batterybuddy.png
 Name: BatteryBuddy
 
-Package: de.roc4et.batterybuddy
-Version: 1.3.2
-Architecture: iphoneos-arm64e
-Maintainer: roc4et
-Installed-Size: 432
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Conflicts: love.litten.batterybuddy
-Filename: ./debs/Roothide Patch/de.roc4et.batterybuddy_1.3.2_iphoneos.deb
-Size: 46312
-MD5sum: 944b59861a9ba94ec052b6e054c3aea3
-SHA1: 9447432161f473caf4e1c3c53ec3a3c915384417
-SHA256: 0429ae2cb67b689be85b8c020582e78c173a9981a69fed34655cedb28b19ea92
-Section: Tweaks
-Description: Battery indicator, but cute
-Author: Traurige & neilsardesai
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/batterybuddy.png
-Name: BatteryBuddy
-
 Package: de.roc4et.designer
 Version: 1.1.8
 Architecture: iphoneos-arm
@@ -114,22 +61,6 @@ Size: 647632
 MD5sum: 160abe2b6ea6365ba57f28c2f0032115
 SHA1: af3e9e05b8d1da5e7bc75e2e59024daf0ebb2562
 SHA256: 64998e152086b822555a3cbfd73365b470f239fe9f246e39bdf9e25aedc3cb4c
-Section: Tweaks
-Description: Design layouts for lockscreen and homescreen
-Author: JunesiPhone
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/designer.png
-Name: Designer
-
-Package: de.roc4et.designer
-Version: 1.1.8
-Architecture: iphoneos-arm64e
-Maintainer: roc4et
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/Roothide Patch/de.roc4et.designer_1.1.8_iphoneos.deb
-Size: 811476
-MD5sum: e44b76a768d9b01625cea7684721906c
-SHA1: 74e9314e22ec6afb71dde8e29a40e9aa6c5f6ea6
-SHA256: 5b2d424615e44c67b9ec8ee30c3f73e89e31804d1f44e2c65954b0b5474873d1
 Section: Tweaks
 Description: Design layouts for lockscreen and homescreen
 Author: JunesiPhone
@@ -153,23 +84,6 @@ Author: AhmedBafkir
 Icon: https://repo.packix.com/api/Packages/5d093ef0ae6eb7001bab54e3/icon/download?size=medium&hash=5d229aeff01adb0014b28851
 Name: DLEasy
 
-Package: de.roc4et.dleasy
-Version: 2.12.4k
-Architecture: iphoneos-arm64e
-Maintainer: roc4et
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap | com.hackyouriphone.rocketbootstrap, curl
-Conflicts: me.ahmedbafkir.dleasy, me.pulandresk.dleasy, me.pulandres.dleasy, ru.rejail.dleasy
-Filename: ./debs/Roothide Patch/de.roc4et.dleasy_2.12.4k_iphoneos.deb
-Size: 2364776
-MD5sum: 99b67e8f5d4e7e16494df4635ac49530
-SHA1: e97b630781f732cf80692b58ae76cb9c5dd6443e
-SHA256: 80fa7f62809303d2f418e6905fea8ef58e643242ab7d46b5ea3735733cb85cb8
-Section: Tweaks
-Description: Download images and videos from social apps easily!
-Author: AhmedBafkir
-Icon: https://repo.packix.com/api/Packages/5d093ef0ae6eb7001bab54e3/icon/download?size=medium&hash=5d229aeff01adb0014b28851
-Name: DLEasy
-
 Package: de.roc4et.emerald
 Version: 1.0.7
 Architecture: iphoneos-arm64
@@ -180,22 +94,6 @@ Size: 212108
 MD5sum: c53e0b660692f30b4c010c2731ab9262
 SHA1: ad6144fe5d81887c6e34c946b029ed09719bbb8d
 SHA256: b8f4a183118a6f0e366ea48b955a3ed5bc60cd311c7086bbb92a65795eb4bf0b
-Section: Tweaks
-Description: Status Bar Pills and Platters
-Author: LaughingQuoll
-Icon: https://media.havoc.app/620c653de96ba40e8240c654
-Name: Emerald
-
-Package: de.roc4et.emerald
-Version: 1.0.7
-Architecture: iphoneos-arm64e
-Maintainer: roc4et
-Depends: firmware (>= 15.0), ws.hbang.alderis, com.spark.libsparkapplist, de.roc4et.xinam1ne
-Filename: ./debs/Roothide Patch/de.roc4et.emerald_1.0.7_iphoneos.deb
-Size: 286334
-MD5sum: 3a71abefd9f12e17e9198337da9d73f8
-SHA1: c87ae3ecf461548a255afb34c4c24b7489400937
-SHA256: f69d00f6c32723d66346ca6b23d5ce32bd3c8bc592cc7c6eb1bd5403e6119110
 Section: Tweaks
 Description: Status Bar Pills and Platters
 Author: LaughingQuoll
@@ -219,23 +117,6 @@ Description: Live wallpapers for iOS
 Author: Traurige <hello@traurige.dev>
 Name: Eneko
 
-Package: de.roc4et.eneko
-Version: 1.4
-Architecture: iphoneos-arm64e
-Maintainer: roc4et
-Installed-Size: 400
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Conflicts: love.litten.eneko
-Filename: ./debs/Roothide Patch/de.roc4et.eneko_1.4_iphoneos.deb
-Size: 38328
-MD5sum: 53553aef11f77585aef05fe153cf65b7
-SHA1: 848fde52e9b3ded6cc7f5f06997479f246eeda34
-SHA256: e4db17a556dffe8bde7dc2ed2ca2a33d33d3d0957ca87a80ededb6736ac73861
-Section: Tweaks
-Description: Live wallpapers for iOS
-Author: Traurige <hello@traurige.dev>
-Name: Eneko
-
 Package: de.roc4et.iOSX
 Version: 0.6.1
 Architecture: iphoneos-arm64
@@ -253,22 +134,26 @@ Icon: https://media.havoc.app/629372b8284c9345b94ce507
 Name: iOSX
 Sileodepiction: https://havoc.app/package/iosx/depiction.json
 
-Package: de.roc4et.iOSX
-Version: 0.6.1
-Architecture: iphoneos-arm64e
-Maintainer: Bank5ia
-Filename: ./debs/Roothide Patch/de.roc4et.iosx.deb
-Size: 8405692
-MD5sum: 21f959ab2261fbc4637e272991d28e7a
-SHA1: cfc2852476bea64687a550cd1aac4c595ea898f0
-SHA256: ac9eae37746f1a3d05f91c25b95fbed085b698303263fb5d9a80a749d3ce998b
-Section: Themes
-Description: iOS with a hint of MacOS
-Author: Bankia
-Depiction: https://havoc.app/depiction/iosx
-Icon: https://media.havoc.app/629372b8284c9345b94ce507
-Name: iOSX
-Sileodepiction: https://havoc.app/package/iosx/depiction.json
+Package: de.roc4et.jade
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Nightwind and thetimeloop <nightwinddev@gmail.com>
+Installed-Size: 1275
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/de.roc4et.jade.deb
+Size: 283224
+MD5sum: 40c8b40cb80ed56688e2bc3c9af49600
+SHA1: 0ca918f39c586b442afd4b1c594e324a923133e3
+SHA256: 2211e5ec98544a9e28b5d5bda0b0b8b4c4eb948fc293002a3ea8524801007996
+Section: Tweaks
+Description: Your control center, brought anew.
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: Nightwind and thetimeloop <nightwinddev@gmail.com>
+Depiction: https://chariz.com/buy/jade
+Header: https://cdn.chariz.cloud/sileo-banner/jade.jpg
+Icon: https://img.chariz.cloud/icon/jade/icon@3x.png
+Name: Jade
+Sileodepiction: https://chariz.com/api/sileo/package/com.nightwind.jade/depiction.json
 
 Package: de.roc4et.junipero
 Version: 1.1
@@ -279,23 +164,6 @@ Size: 16826868
 MD5sum: d9d933e70a38fcb620b19802921ba9d3
 SHA1: 7ee0aa25ef5f35c44d3442f7b66574231e1c3617
 SHA256: 6d422705672c5aaf7bdc24ba6c53294e003608a98002debb841058252a4ff5b9
-Section: Themes
-Description: A stunning new look for iOS
-Author: xerus <xerusxan@gmail.com>
-Depiction: https://havoc.app/depiction/junipero
-Icon: https://media.havoc.app/63b84bd79d84843fe96beeb7
-Name: Junipero
-Sileodepiction: https://havoc.app/package/junipero/depiction.json
-
-Package: de.roc4et.junipero
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: roc4et
-Filename: ./debs/Roothide Patch/de.roc4et.junipero_1.1_iphoneos.deb
-Size: 16833344
-MD5sum: bdbe65704563d9bf7986177ceae724fe
-SHA1: 169f7adf884ae1fb95cd3b301385fc00c6bbf351
-SHA256: c6525dd1b3cf578dce107190cc6ea068f87b5d025958080c63d1cf6fbfe2305b
 Section: Themes
 Description: A stunning new look for iOS
 Author: xerus <xerusxan@gmail.com>
@@ -323,22 +191,23 @@ Icon: https://repo.roc4et.de/debs/snapper3.png
 Name: Snapper 3 Rootless
 Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless
 
-Package: de.roc4et.snapper3-rootless
-Version: 1.0k
-Architecture: iphoneos-arm64e
-Maintainer: Jonathan Winger-lang
-Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix
-Filename: ./debs/Roothide Patch/de.roc4et.snapper3.deb
-Size: 988286
-MD5sum: 637eab0eb962697791725903f2311eb8
-SHA1: ac475bb1a5c1a46874bbcf8f474f9fabf9e0ae8f
-SHA256: 61a0ae688442d1d2dfe762986f443d3dcc62e23ddbb277d5b0bce412c19310a5
-Section: Tweaks
-Description: Snapper 3 Cracked by roc4et
-Author: Jonathan Winger-lang
-Depiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless/index.html
-Icon: https://repo.roc4et.de/debs/snapper3.png
-Name: Snapper 3 Rootless
-Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless
+Package: xyz.cypwn.xinam1ne
+Version: 2.4-9
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 15.0), libclang-cpp14, llvm-14, llvm-14-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0)
+Replaces: emt.paisseon.xinamine
+Provides: emt.paisseon.xinamine (= 99)
+Filename: ./debs/de.roc4et.xinam1ne.deb
+Size: 74584
+MD5sum: 395a182f4bbb454873a2a96fc347a7a8
+SHA1: 9c7f9cf2e8536bb4fbdd3c352e5b977e698935c5
+SHA256: b333f26cd1f313bc43391ee247692272f72eeb3d099dbe19bd82b3365b1db079
+Section: Utilities
+Description: Xinamine bundle. Includes linker, patcher, 'chex' link checker, 'chix' link fixer, plus other supporting filza scripts.
+Author: Paisseon, Sudo, NoW4U2Kid
+Depiction: https://repo.cypwn.xyz/depiction/1747
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/xinam1ne.png
+Name: Xinam1ne All-in-One
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1747
 
