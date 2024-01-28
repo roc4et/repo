@@ -1,3 +1,58 @@
+Package: de.roc4et.alpine
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: roc4et
+Installed-Size: 1108
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/de.roc4et.alpine.deb
+Size: 600268
+MD5sum: a913fd2cd624fd9a2a4e516dcbae0475
+SHA1: bee8dd3509af0008125ffa3598e8c7af85acc8dc
+SHA256: 4410a827169f1cf3820e1a8bf9f5e5d8379caf259113b2afa7edae56e4d5086a
+Section: Tweaks
+Description: tvOS alerts for iOS
+Author: mtac
+Icon: https://media.havoc.app/64ae21880d54f9113bc13a59
+Name: Alpine
+
+Package: de.roc4et.alpine
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: roc4et
+Installed-Size: 1108
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/Roothide Patch/de.roc4et.alpine.deb
+Size: 647638
+MD5sum: 429d3a991eda343787f8d0bb0d8af0da
+SHA1: 2e4da063a694846fe073f5d120ea71fbe7b95a8a
+SHA256: ac28ce524d7794b004db3584b8c09fd93e75657dd1287f951c086fedd2e35220
+Section: Tweaks
+Description: tvOS alerts for iOS
+Author: mtac
+Icon: https://media.havoc.app/64ae21880d54f9113bc13a59
+Name: Alpine
+
+Package: de.roc4et.axon-rootless
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: Baw Appie
+Installed-Size: 628
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/Roothide Patch/de.roc4et.axon-rootless_1.5_iphoneos-arm64e-2.deb
+Size: 171228
+MD5sum: 68ba25de644e26a0278b03f955b0a434
+SHA1: 72ebf1fe65519a12ed7576b4e54c18f3da2c7086
+SHA256: 4c0675643cd8d9a2841a87f342469a28ee9ee4b79521346ea14d0deb565ab88d
+Section: Tweaks
+Description: Priority Hub for iOS 16
+Author: Baw Appie
+Depiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless/index.html
+Icon: https://repo.roc4et.de/debs/de.roc4et.axon-rootless/axon.png
+Name: Axon
+Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless
+
 Package: de.roc4et.axon-rootless
 Version: 1.5
 Architecture: iphoneos-arm64
@@ -15,26 +70,22 @@ Description: Priority Hub for iOS 16
 Author: Baw Appie
 Name: Axon
 
-Package: de.roc4et.axon-rootless
-Version: 1.5
+Package: de.roc4et.iOSX
+Version: 0.6.1
 Architecture: iphoneos-arm64e
-Maintainer: Baw Appie
-Installed-Size: 628
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate, firmware (>= 16.0)
-Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
-Filename: ./debs/de.roc4et.axon-rootless/de.roc4et.axon-rootless_1.5_iphoneos-arm64e-2.deb
-Size: 171228
-MD5sum: 68ba25de644e26a0278b03f955b0a434
-SHA1: 72ebf1fe65519a12ed7576b4e54c18f3da2c7086
-SHA256: 4c0675643cd8d9a2841a87f342469a28ee9ee4b79521346ea14d0deb565ab88d
-Section: Tweaks
-Description: Priority Hub for iOS 16
-Author: Baw Appie
-Depiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless/index.html
-Icon: https://repo.roc4et.de/debs/de.roc4et.axon-rootless/axon.png
-Name: Axon
-Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.axon-rootless
+Maintainer: Bank5ia
+Filename: ./debs/Roothide Patch/de.roc4et.iosx.deb
+Size: 8405472
+MD5sum: 12300b0ccc2f8742ba5e8789f158f5d1
+SHA1: 8f899e7c908a03da2733de1449d2a33489235da1
+SHA256: c0b9a565629a36daea53128557a06455ebb5908e79aa977c9027a6333e0c80e7
+Section: Themes
+Description: iOS with a hint of MacOS
+Author: Bankia
+Depiction: https://havoc.app/depiction/iosx
+Icon: https://media.havoc.app/629372b8284c9345b94ce507
+Name: iOSX
+Sileodepiction: https://havoc.app/package/iosx/depiction.json
 
 Package: de.roc4et.iOSX
 Version: 0.6.1
@@ -55,6 +106,23 @@ Sileodepiction: https://havoc.app/package/iosx/depiction.json
 
 Package: de.roc4et.junipero
 Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: roc4et
+Filename: ./debs/Roothide Patch/de.roc4et.junipero_1.1_iphoneos-arm64.deb
+Size: 16833336
+MD5sum: 6b32093b080e5640b08c15f8b41512fb
+SHA1: c7884d5f3e9fc1ee5c5efd16de13b884eef8e1aa
+SHA256: 8a4bb4f8f64d9b97a54648b268680acdcfe4dc60193339722b4c10ffc70438d5
+Section: Themes
+Description: A stunning new look for iOS
+Author: xerus <xerusxan@gmail.com>
+Depiction: https://havoc.app/depiction/junipero
+Icon: https://media.havoc.app/63b84bd79d84843fe96beeb7
+Name: Junipero
+Sileodepiction: https://havoc.app/package/junipero/depiction.json
+
+Package: de.roc4et.junipero
+Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: roc4et
 Filename: ./debs/de.roc4et.junipero/de.roc4et.junipero_1.1_iphoneos-arm64.deb
@@ -72,16 +140,15 @@ Sileodepiction: https://havoc.app/package/junipero/depiction.json
 
 Package: de.roc4et.snapper3-rootless
 Version: 1.0k
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: Jonathan Winger-lang
-Pre-Depends: rootless-compat(>= 0.1)
 Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix
-Filename: ./debs/de.roc4et.snapper3-rootless/de.roc4et.snapper3-rootless_1.0k_iphoneos-arm64e-2.deb
-Size: 1970212
-MD5sum: 19cbd369fe7299dcc0befdb6280884ce
-SHA1: 42fd277b4f259bec11e1884771c83448c1ed2f41
-SHA256: 5488ba7cf049c504d1fd0aa57e07ab6952527f4b3f063d905dea671571a1e012
+Filename: ./debs/de.roc4et.snapper3-rootless/de.roc4et.snapper3-rootless.deb
+Size: 911380
+MD5sum: 74236d4920c1e0c02aa954385fcb1179
+SHA1: df415eb32bfeeb1a17d34bba3913cef015e4cb62
+SHA256: 0f2ed5fb8ddeffd2a91c7cbe4838bfa14284d8985efef9ce434eca9f3f3c875a
 Section: Tweaks
 Description: Snapper 3 Cracked by roc4et
 Author: Jonathan Winger-lang
@@ -92,15 +159,16 @@ Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless
 
 Package: de.roc4et.snapper3-rootless
 Version: 1.0k
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: Jonathan Winger-lang
+Pre-Depends: rootless-compat(>= 0.1)
 Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix
-Filename: ./debs/de.roc4et.snapper3-rootless/de.roc4et.snapper3-rootless.deb
-Size: 911380
-MD5sum: 74236d4920c1e0c02aa954385fcb1179
-SHA1: df415eb32bfeeb1a17d34bba3913cef015e4cb62
-SHA256: 0f2ed5fb8ddeffd2a91c7cbe4838bfa14284d8985efef9ce434eca9f3f3c875a
+Filename: ./debs/Roothide Patch/de.roc4et.snapper3-rootless_1.0k_iphoneos-arm64e-2.deb
+Size: 1970212
+MD5sum: 19cbd369fe7299dcc0befdb6280884ce
+SHA1: 42fd277b4f259bec11e1884771c83448c1ed2f41
+SHA256: 5488ba7cf049c504d1fd0aa57e07ab6952527f4b3f063d905dea671571a1e012
 Section: Tweaks
 Description: Snapper 3 Cracked by roc4et
 Author: Jonathan Winger-lang
