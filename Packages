@@ -141,13 +141,12 @@ Maintainer: Nightwind and thetimeloop <nightwinddev@gmail.com>
 Installed-Size: 1275
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
 Filename: ./debs/de.roc4et.jade.deb
-Size: 283224
-MD5sum: 40c8b40cb80ed56688e2bc3c9af49600
-SHA1: 0ca918f39c586b442afd4b1c594e324a923133e3
-SHA256: 2211e5ec98544a9e28b5d5bda0b0b8b4c4eb948fc293002a3ea8524801007996
+Size: 283984
+MD5sum: 08d39819aff846f7f0fff71afa9364be
+SHA1: d623d0ebf6b18627e2e30f21eb7452aedbfcf585
+SHA256: 35ae4907ebf2b875fde5a2a7dff1173235cf7ed315a2086d90572a5a65e59e7d
 Section: Tweaks
 Description: Your control center, brought anew.
-Tag: cydia::commercial, compatible_min::ios15.0
 Author: Nightwind and thetimeloop <nightwinddev@gmail.com>
 Depiction: https://chariz.com/buy/jade
 Header: https://cdn.chariz.cloud/sileo-banner/jade.jpg
@@ -191,7 +190,7 @@ Icon: https://repo.roc4et.de/debs/snapper3.png
 Name: Snapper 3 Rootless
 Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless
 
-Package: xyz.cypwn.xinam1ne
+Package: de.roc4et.xinam1ne
 Version: 2.4-9
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
@@ -199,10 +198,10 @@ Depends: mobilesubstrate, firmware (>= 15.0), libclang-cpp14, llvm-14, llvm-14-r
 Replaces: emt.paisseon.xinamine
 Provides: emt.paisseon.xinamine (= 99)
 Filename: ./debs/de.roc4et.xinam1ne.deb
-Size: 74584
-MD5sum: 395a182f4bbb454873a2a96fc347a7a8
-SHA1: 9c7f9cf2e8536bb4fbdd3c352e5b977e698935c5
-SHA256: b333f26cd1f313bc43391ee247692272f72eeb3d099dbe19bd82b3365b1db079
+Size: 74664
+MD5sum: 84726caf2821fc0ddf76685fdc7aadd6
+SHA1: 33cf26ae50c5330ef36ac076490a3132cee9d530
+SHA256: cae7f4940f77b256a9e99e023a8bb930fd9d80b3ec9e4da813d9c68bfeb4e17a
 Section: Utilities
 Description: Xinamine bundle. Includes linker, patcher, 'chex' link checker, 'chix' link fixer, plus other supporting filza scripts.
 Author: Paisseon, Sudo, NoW4U2Kid
