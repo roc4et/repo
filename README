@@ -1,9 +1,0 @@
-Tempdir: mkdir tmp
-
-Unpack: dpkg-deb -R tweakname.deb tmp
-
-Rebuild: sudo dpkg-deb -b tmp finish.deb
-
-Give File Permission: chmod 0755 filename
-
-Remove DS Store: rm **/.DS_Store
