@@ -15,6 +15,24 @@ Author: mtac
 Icon: https://media.havoc.app/64ae21880d54f9113bc13a59
 Name: Alpine
 
+Package: de.roc4et.alpine
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: roc4et
+Installed-Size: 1108
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/Roothide Patches/de.roc4et.alpine_1.3_iphoneos-arm64e.deb
+Size: 651576
+MD5sum: ab06949d14f247b3a360ab797a157065
+SHA1: de057eb229420adae8e986833f380ca64e55d28a
+SHA256: 80b2731d204a029e60b60bbd7a8773348ca3d45ae629eb48cc7ba38fd20ebafc
+Section: Tweaks
+Description: tvOS alerts for iOS
+Author: mtac
+Icon: https://media.havoc.app/64ae21880d54f9113bc13a59
+Name: Alpine
+
 Package: de.roc4et.axon-rootless
 Version: 1.5
 Architecture: iphoneos-arm64
@@ -27,6 +45,25 @@ Size: 138764
 MD5sum: 9b762246ac1d783be8800cea7dc1012d
 SHA1: ecf9fcf89150d04657bdac42b19a09102fa2a449
 SHA256: 633550aede34275c0baa1d2b123ec5adfe391e7c4e11a9607f6d18f7839accc1
+Section: Tweaks
+Description: Priority Hub for iOS 16
+Author: Baw Appie
+Icon: https://repo.roc4et.de/debs/axon.png
+Name: Axon
+
+Package: de.roc4et.axon-rootless
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: Baw Appie
+Installed-Size: 628
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/Roothide Patches/de.roc4et.axon-rootless_1.5_iphoneos-arm64e.deb
+Size: 171184
+MD5sum: a48778d52401333acb98af963491795d
+SHA1: 423a2380d7407e69b3b61c15129b465a468263b7
+SHA256: 5fc9b9047fd972eb5d7816647f0b563aee46b30faccbae7e94ad06ddeadab0fb
 Section: Tweaks
 Description: Priority Hub for iOS 16
 Author: Baw Appie
@@ -100,6 +137,23 @@ Author: LaughingQuoll
 Icon: https://media.havoc.app/620c653de96ba40e8240c654
 Name: Emerald
 
+Package: de.roc4et.emerald
+Version: 1.0.7
+Architecture: iphoneos-arm64e
+Maintainer: roc4et
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: firmware (>= 15.0), ws.hbang.alderis, com.spark.libsparkapplist, de.roc4et.xinam1ne
+Filename: ./debs/Roothide Patches/de.roc4et.emerald_1.0.7_iphoneos-arm64e.deb
+Size: 563840
+MD5sum: b80ca044ea360be3bff22025856981f6
+SHA1: 5fd3b08d0a3f99c57acbe0905732f3f375b08454
+SHA256: 7fe7aed141fcdd80cb36a71acea54bde285da05ea7926753f327c613498c9556
+Section: Tweaks
+Description: Status Bar Pills and Platters
+Author: LaughingQuoll
+Icon: https://media.havoc.app/620c653de96ba40e8240c654
+Name: Emerald
+
 Package: de.roc4et.eneko
 Version: 1.4
 Architecture: iphoneos-arm
@@ -134,6 +188,24 @@ Icon: https://media.havoc.app/629372b8284c9345b94ce507
 Name: iOSX
 Sileodepiction: https://havoc.app/package/iosx/depiction.json
 
+Package: de.roc4et.iOSX
+Version: 0.6.1
+Architecture: iphoneos-arm64e
+Maintainer: Bank5ia
+Pre-Depends: rootless-compat(>= 0.1)
+Filename: ./debs/Roothide Patches/de.roc4et.iosx_0.6.1_iphoneos-arm64e-1.deb
+Size: 16810796
+MD5sum: d8c15bfa7884166150350a8a49ea7466
+SHA1: 1feabce31f5449642fdf80138140e1294e3b522c
+SHA256: a39f3f06c2478907230c2dee0fa35b7378e5a7dfaae280173792d2bb6ced971a
+Section: Themes
+Description: iOS with a hint of MacOS
+Author: Bankia
+Depiction: https://havoc.app/depiction/iosx
+Icon: https://media.havoc.app/629372b8284c9345b94ce507
+Name: iOSX
+Sileodepiction: https://havoc.app/package/iosx/depiction.json
+
 Package: de.roc4et.jade
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -154,6 +226,27 @@ Icon: https://img.chariz.cloud/icon/jade/icon@3x.png
 Name: Jade
 Sileodepiction: https://chariz.com/api/sileo/package/com.nightwind.jade/depiction.json
 
+Package: de.roc4et.jade
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Nightwind and thetimeloop <nightwinddev@gmail.com>
+Installed-Size: 1275
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/Roothide Patches/de.roc4et.jade_1.0.1_iphoneos-arm64e.deb
+Size: 357438
+MD5sum: 3b1ae47b5abc28bd382b4e3ad7dd3e18
+SHA1: d8397c35c6b7ad02d81939168cde22892309af38
+SHA256: 5fb285992465a59ab8d1e6ceebb6116815ca0643498b34f4a016b164dfdd749a
+Section: Tweaks
+Description: Your control center, brought anew.
+Author: Nightwind and thetimeloop <nightwinddev@gmail.com>
+Depiction: https://chariz.com/buy/jade
+Header: https://cdn.chariz.cloud/sileo-banner/jade.jpg
+Icon: https://img.chariz.cloud/icon/jade/icon@3x.png
+Name: Jade
+Sileodepiction: https://chariz.com/api/sileo/package/com.nightwind.jade/depiction.json
+
 Package: de.roc4et.junipero
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -163,6 +256,24 @@ Size: 16826868
 MD5sum: d9d933e70a38fcb620b19802921ba9d3
 SHA1: 7ee0aa25ef5f35c44d3442f7b66574231e1c3617
 SHA256: 6d422705672c5aaf7bdc24ba6c53294e003608a98002debb841058252a4ff5b9
+Section: Themes
+Description: A stunning new look for iOS
+Author: xerus <xerusxan@gmail.com>
+Depiction: https://havoc.app/depiction/junipero
+Icon: https://media.havoc.app/63b84bd79d84843fe96beeb7
+Name: Junipero
+Sileodepiction: https://havoc.app/package/junipero/depiction.json
+
+Package: de.roc4et.junipero
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: roc4et
+Pre-Depends: rootless-compat(>= 0.1)
+Filename: ./debs/Roothide Patches/de.roc4et.junipero_1.1_iphoneos-arm64e-1.deb
+Size: 33612432
+MD5sum: 7d7e9a187c05354f8811e1d0df251572
+SHA1: eb40da9cb070e67a37e1748b9ab181208971beb6
+SHA256: 68149d4553ee8719d450e44232d0278f3cce0a5b7c12940589348846995057c8
 Section: Themes
 Description: A stunning new look for iOS
 Author: xerus <xerusxan@gmail.com>
@@ -190,6 +301,26 @@ Icon: https://repo.roc4et.de/debs/snapper3.png
 Name: Snapper 3 Rootless
 Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless
 
+Package: de.roc4et.snapper3-rootless
+Version: 1.0k
+Architecture: iphoneos-arm64e
+Maintainer: Jonathan Winger-lang
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix
+Filename: ./debs/Roothide Patches/de.roc4et.snapper3-rootless_1.0k_iphoneos-arm64e.deb
+Size: 1970088
+MD5sum: 433afeb1530bec28736af1db44fd80d0
+SHA1: 57d1cf5cd0a4c2f0a7ab504aa8863caea72748b5
+SHA256: 5585531beaa579658832ddabc5cd5c84bf4ccd4fb3bf75622cb74d7ef0ac9274
+Section: Tweaks
+Description: Snapper 3 Cracked by roc4et
+Author: Jonathan Winger-lang
+Depiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless/index.html
+Icon: https://repo.roc4et.de/debs/snapper3.png
+Name: Snapper 3 Rootless
+Sileodepiction: https://repo.roc4et.de/depiction/de.roc4et.snapper3-rootless
+
 Package: de.roc4et.xinam1ne
 Version: 2.4-9
 Architecture: iphoneos-arm64
@@ -202,6 +333,27 @@ Size: 74664
 MD5sum: 84726caf2821fc0ddf76685fdc7aadd6
 SHA1: 33cf26ae50c5330ef36ac076490a3132cee9d530
 SHA256: cae7f4940f77b256a9e99e023a8bb930fd9d80b3ec9e4da813d9c68bfeb4e17a
+Section: Utilities
+Description: Xinamine bundle. Includes linker, patcher, 'chex' link checker, 'chix' link fixer, plus other supporting filza scripts.
+Author: Paisseon, Sudo, NoW4U2Kid
+Depiction: https://repo.cypwn.xyz/depiction/1747
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/xinam1ne.png
+Name: Xinam1ne All-in-One
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1747
+
+Package: de.roc4et.xinam1ne
+Version: 2.4-9
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, firmware (>= 15.0), libclang-cpp14, llvm-14, llvm-14-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0)
+Replaces: emt.paisseon.xinamine
+Provides: emt.paisseon.xinamine (= 99)
+Filename: ./debs/Roothide Patches/de.roc4et.xinam1ne_2.4-9_iphoneos-arm64e.deb
+Size: 96586
+MD5sum: 5437ffeaf6c8dd79816a3875d3a37757
+SHA1: 7cbbef5e49e2e4d9c010b889524c01f1410f7850
+SHA256: c1c567b593f674e8d4c8f213c7652c2677384ad58759688aae9f15e8fd12c658
 Section: Utilities
 Description: Xinamine bundle. Includes linker, patcher, 'chex' link checker, 'chix' link fixer, plus other supporting filza scripts.
 Author: Paisseon, Sudo, NoW4U2Kid
